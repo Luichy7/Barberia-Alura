@@ -1,0 +1,56 @@
+
+
+
+.banner {
+    width: 100%;
+
+}
+.bloquePrincipal {
+    background: #ccc;
+    padding: 20px;
+}
+.titulo {
+    text-align: center;  
+}
+
+.parrafo2 {
+    font-size: 20px;
+    
+}
+
+.parrafo1,
+.parrafo2,
+.parrafo3 {
+    background: #ccc;
+    text-align: center;
+}
+
+
+.strong2 {
+    color: red;
+}
+
+.diferenciales {
+    background: #ffffff;
+    padding: 30px;
+}
+
+.titulo2 {
+    text-align: center;
+}
+
+.lista {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.items {
+    font-style: italic;
+
+}
+
+.imagenDiferenciales {
+    width: 50%;
+}
