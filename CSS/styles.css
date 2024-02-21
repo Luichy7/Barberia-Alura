@@ -1,4 +1,6 @@
-
+.titulo-principal {
+    padding-left:30px;
+}
 
 
 .banner {
@@ -9,7 +11,7 @@
     background: #ccc;
     padding: 20px;
 }
-.titulo {
+.titulo-centralizado {
     text-align: center;  
 }
 
@@ -35,9 +37,6 @@
     padding: 30px;
 }
 
-.titulo2 {
-    text-align: center;
-}
 
 .lista {
     display: inline-block;
