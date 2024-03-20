@@ -1,0 +1,38 @@
+  /* Estilos generales */
+    .main {
+        max-width: 800px; /* Ancho máximo del contenido */
+        margin: auto; /* Centrar el contenido */
+        padding: 20px;
+    }
+
+    /* Estilos del formulario */
+    .form label,
+    .form input,
+    .form textarea,
+    .form select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Estilos de la tabla */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+
+    /* Media queries para hacer que los elementos sean responsive */
+    @media screen and (max-width: 768px) {
+        .form label,
+        .form input,
+        .form textarea,
+        .form select {
+            width: calc(100% - 20px);
+        }
+    }
+
